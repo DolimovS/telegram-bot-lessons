@@ -1,0 +1,13 @@
+{
+  "name": "create_bot",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js",
+    "format":"prettier --ignore-unknown --white ."
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.67.0",
+    "nodemon": "^3.1.11"
+  }
+}
